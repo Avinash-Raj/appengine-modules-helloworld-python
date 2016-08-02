@@ -7,7 +7,7 @@ dispatch:
 
 # Send all mobile traffic to the mobile frontend.
 - url: "*/mobile/*"
-  module: mobile-frontend
+  module: php-module
 
 # Send all work to the one static backend.
 - url: "*/work/*"

@@ -1,13 +1,12 @@
 application: simple-sample
-module: static-backend
+module: php-module
 version: 1
-runtime: python27
+runtime: php55
 api_version: 1
-threadsafe: true
 
 manual_scaling:
   instances: 1
 
 handlers:
 - url: /.*
-  script: printenv.APP
+  script: hello.php
