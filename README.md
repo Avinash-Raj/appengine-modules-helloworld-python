@@ -1,5 +1,12 @@
-# Modules Hello World
+# Important 
 
+To make the app work on your local machine, you have to install `php5` and `php5-cgi` packages.
+
+Run the below command on your terminal to start this app.
+
+    dev_appserver.py dispatch.yaml app.yaml php.yaml static_backend.yaml --php_executable_path /usr/bin/php-cgi
+
+# Modules Hello World
 This is a sample application using the Google App Engine [Modules API][10].
 It demonstrates how to create multiple modules serving different functions
 as well as custom routing to different modules.
